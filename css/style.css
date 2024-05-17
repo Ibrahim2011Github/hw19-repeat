@@ -33,6 +33,16 @@ body{
     position: relative;
 }
 
+.dark{
+    width: 100%;
+    min-height: inherit;
+    background-color: black; 
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .header{
     width: 100%;
     min-height: 150px;
@@ -186,6 +196,87 @@ body{
 
 .marg{
     margin-right: 50px;
+}
+
+.word{
+    width: 45%;
+    min-height: 300px;
+    /* background-color: blue; */
+    margin: 230px 0 0 75px;
+}
+
+.word h1{
+    margin: 12px 0 12px 0;
+    font-size: 68px;
+}
+
+.word span{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.learn{
+    width: 230px;
+    min-height: 40px;
+    background-color: #00C367;
+    border-radius: 4px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.learn i{
+    padding: 15px 12px;
+    margin-left: 8px;
+}
+
+.learn span{
+    padding: 15px 20px;
+}
+
+.info{
+    width: 100%;
+    min-height: 400px;
+    background-color: #F7F7F7;
+    justify-content: space-evenly;
+    
+}
+
+.demo{
+    width: 24%;
+    min-height: 200px;
+    /* background-color: aquamarine; */
+    line-height: 25px;
+}
+
+.demo ul{
+    margin: 0;
+    padding: 0;
+}
+
+.demo ul li{
+    list-style-type: none;
+    
+}
+
+.demo ul li a{
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.demo ul li strong{
+    font-size: 25px
+}
+
+.demo ul li a i{
+    font-size: 35px;
+    margin: -10px 0 0 -10px;
+}
+
+.demo h2{
+    width: 425px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
 }
 
 
