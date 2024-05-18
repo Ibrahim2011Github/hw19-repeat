@@ -298,13 +298,13 @@ body{
 .footer ul li a{
     text-decoration: none;
     letter-spacing: 2px;
+    transition: 1s;
 }  
 
 .footer ul li a:hover{
     padding: 10px;
     background-color: #00C464;
     color: white;
-    transition: 1s;
 }
 
 .foto{
