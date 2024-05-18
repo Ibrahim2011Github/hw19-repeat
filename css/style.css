@@ -168,7 +168,7 @@ body{
 }
 
 .center_menu li a:hover{
-    color: pink;
+    color: darkgray;
     transition: 0.9s;
 }
 
@@ -318,8 +318,7 @@ body{
 
 .picture{
     width: 435px;
-    min-height: 170px;
+    height: 250px;
     background-size: cover;
-    background-position: center();
 }
 
